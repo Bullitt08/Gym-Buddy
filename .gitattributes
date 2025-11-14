@@ -1,0 +1,44 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Dart files
+*.dart text diff=dart
+
+# Flutter/Dart specific
+*.yaml text
+*.yml text
+*.json text
+*.md text
+*.txt text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archives
+*.zip binary
+*.tar binary
+*.gz binary
+
+# Android
+*.gradle text
+*.properties text
+*.xml text
+
+# iOS
+*.plist text
+*.pbxproj text merge=union
+*.xcconfig text
+
+# Prevent merge conflicts in generated files
+pubspec.lock merge=ours
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true

@@ -1,0 +1,88 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# API Keys and Secrets - NEVER COMMIT THESE!
+lib/config/api_keys.dart
+**/api_keys.dart
+android/app/google-services.json
+android/app/src/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Native platform API key files (keep .example versions)
+android/app/src/main/AndroidManifest.xml
+ios/Runner/AppDelegate.swift
+
+# Local API key files (keep your real keys here)
+*.local
+ios/Runner/AppDelegate.swift.local
+android/app/src/main/AndroidManifest.xml.local
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*_backup.dart
+*_old.dart
+*_simple.dart
+*_test.dart
+*_temp.dart
+
+# Debug and setup files
+*_DEBUG.md
+*_FIX.md
+*_SETUP.md
+*.sql
+debug_*.dart
+
+# Log files
+*.log
+flutter_*.log
+
+# Firebase config files (optional - contains API keys)
+# Uncomment if you want to exclude firebase_options.dart
+# lib/firebase_options.dart
